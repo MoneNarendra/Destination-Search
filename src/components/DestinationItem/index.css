@@ -1,0 +1,28 @@
+.search-result {
+  width: 220px;
+  margin: 8px;
+  text-align: left;
+}
+
+.images {
+  width: 210px;
+}
+
+.image-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+@media screen and (min-width: 992px) {
+  .search-result {
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    width: 300px;
+  }
+  .images {
+    width: 280px;
+  }
+}
